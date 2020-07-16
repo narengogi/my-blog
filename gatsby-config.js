@@ -20,17 +20,17 @@ module.exports = {
 						title: `About`,
 						slug: `/about`
 					}
+				],
+				externalLinks: [
+					{
+						name: `Facebook`,
+						url: `https://www.facebook.com/Narendranathgogineni/`
+					}
+					// {
+					// 	name: `Instagram`,
+					// 	url: `https://www.instagram.com/lekoarts.de/`
+					// }
 				]
-				// externalLinks: [
-				// 	{
-				// 		name: `Facebook`,
-				// 		url: `https://twitter.com/lekoarts_de`
-				// 	},
-				// 	{
-				// 		name: `Instagram`,
-				// 		url: `https://www.instagram.com/lekoarts.de/`
-				// 	}
-				// ]
 			}
 		},
 		{
