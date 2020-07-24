@@ -6,13 +6,13 @@ module.exports = (options) => {
 	return {
 		siteMetadata: {
 			siteTitle: `Naren's Blog`,
-			siteTitleAlt: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
-			siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-			siteUrl: `https://minimal-blog.lekoarts.de`,
-			siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+			siteTitleAlt: `Narendra Nath Gogineni's Blog`,
+			siteHeadline: `Narendra Nath Gogineni's Personal Website`,
+			siteUrl: `https://naths.in`,
+			siteDescription: `Hey, I'm Narendra Nath Gogineni. and this is my personal website`,
 			siteLanguage: `en`,
-			siteImage: `/banner.jpg`,
-			author: `@lekoarts_de`
+			siteImage: `/picture-of-naren-512x512.png`,
+			author: `Narendra Nath Gogineni`
 		},
 		plugins: [
 			{
