@@ -5,7 +5,13 @@ require(`dotenv`).config({
 module.exports = {
 	siteMetadata: {
 		siteUrl: `https://www.naths.in`,
-		siteTitleAlt: `Naren's Blog`
+		siteTitle: `Naren's website`,
+		siteTitleAlt: `Naren's personal website`,
+		siteHeadline: `Naren's website`,
+		siteDescription: `Narendra Nath Gogineni's personal website`,
+		siteLanguage: `en`,
+		siteImage: `/favicon-32x32.jpg`,
+		author: `Narendra Nath Gogineni`
 	},
 	plugins: [
 		{
