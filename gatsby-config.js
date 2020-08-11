@@ -38,16 +38,6 @@ module.exports = {
 					// 	url: `https://www.instagram.com/lekoarts.de/`
 					// }
 				]
-			},
-			siteMetadata: {
-				siteUrl: `https://www.naths.in`,
-				siteTitle: `Naren's website`,
-				siteTitleAlt: `Naren's personal website`,
-				siteHeadline: `Naren's website`,
-				siteDescription: `Narendra Nath Gogineni's personal website`,
-				siteLanguage: `en`,
-				siteImage: `/favicon-32x32.jpg`,
-				author: `Narendra Nath Gogineni`
 			}
 		},
 		{
