@@ -71,13 +71,6 @@ module.exports = {
 				]
 			}
 		},
-		{
-			resolve: `gatsby-plugin-feed`,
-			feeds: [
-				 title: "Naren's Personal Website" 
-				]
-		},
-
 		`gatsby-plugin-offline`,
 		`gatsby-plugin-netlify`
 	]
