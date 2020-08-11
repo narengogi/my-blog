@@ -73,9 +73,7 @@ module.exports = {
 		},
 		{
 			resolve: `gatsby-plugin-feed`,
-			options: {
-				title: "Naren's Personal Website"
-			}
+			feeds: [ (title: "Naren's Personal Website") ]
 		},
 
 		`gatsby-plugin-offline`,
