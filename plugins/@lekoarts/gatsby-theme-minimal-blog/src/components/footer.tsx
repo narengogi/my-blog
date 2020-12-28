@@ -22,13 +22,9 @@ const Footer = () => {
 		>
 			<div>&copy; {new Date().getFullYear()} by Naren. </div>
 			<div>
-				Theme
-				{` `}
 				by
 				{` `}
-				<Link aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
-					LekoArts
-				</Link>
+				Naren
 			</div>
 		</footer>
 	);
