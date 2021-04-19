@@ -30,8 +30,8 @@ module.exports = {
 				],
 				externalLinks: [
 					{
-						name: `Facebook`,
-						url: `https://www.facebook.com/Narendranathgogineni/`
+						name: `Github`,
+						url: `https://www.github.com/nathsin/`
 					}
 					// {
 					// 	name: `Instagram`,
