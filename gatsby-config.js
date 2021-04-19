@@ -20,12 +20,12 @@ module.exports = {
 			options: {
 				navigation: [
 					{
-						title: `Blog`,
+						title: `Essays`,
 						slug: `/blog`
 					},
 					{
-						title: `About`,
-						slug: `/about`
+						title: `Unindexed/Links`,
+						slug: `/unindexed`
 					}
 				],
 				externalLinks: [

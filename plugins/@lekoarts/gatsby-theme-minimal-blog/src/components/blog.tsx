@@ -30,10 +30,10 @@ const Blog = ({ posts }: PostsProps) => {
 		<Layout>
 			<SEO title="Narendra Nath Gogineni Blog" />
 			<Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexFlow: `wrap` }}>
-				<Heading variant="styles.h2">Blog</Heading>
-				<TLink as={Link} sx={{ variant: `links.secondary` }} to={replaceSlashes(`/${basePath}/${tagsPath}`)}>
+				<Heading variant="styles.h2">Essays</Heading>
+				{/* <TLink as={Link} sx={{ variant: `links.secondary` }} to={replaceSlashes(`/${basePath}/${tagsPath}`)}>
 					View all tags
-				</TLink>
+				</TLink> */}
 			</Flex>
 			<Listing posts={posts} sx={{ mt: [ 4, 5 ] }} />
 		</Layout>
