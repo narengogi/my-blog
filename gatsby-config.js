@@ -11,8 +11,7 @@ module.exports = {
 		siteDescription: `Narendra Nath Gogineni's personal website`,
 		siteLanguage: `en`,
 		siteImage: `/favicon-32x32.jpg`,
-		author: `Narendra Nath Gogineni`,
-		title: `Naren's Space`
+		author: `Narendra Nath Gogineni`
 	},
 	plugins: [
 		{

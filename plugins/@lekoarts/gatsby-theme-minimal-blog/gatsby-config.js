@@ -12,8 +12,7 @@ module.exports = (options) => {
 			siteDescription: `Hey, I'm Narendra Nath Gogineni. and this is my personal website`,
 			siteLanguage: `en`,
 			siteImage: `/picture-of-naren-512x512.png`,
-			author: `Narendra Nath Gogineni`,
-			title: `Naren's Space`
+			author: `Narendra Nath Gogineni`
 		},
 		plugins: [
 			{
@@ -22,7 +21,7 @@ module.exports = (options) => {
 			},
 			feed && {
 				resolve: `gatsby-plugin-feed`,
-				options: newsletterFeed(feedTitle)
+				options: newsletterFeed('Narens Blog')
 			},
 			`gatsby-plugin-react-helmet`,
 			`gatsby-plugin-typescript`,
