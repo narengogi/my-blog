@@ -144,7 +144,7 @@ exports.sourceNodes = ({ actions, createContentDigest }, themeOptions) => {
 
   createNode({
     ...minimalBlogConfig,
-    id: `@lekoarts/gatsby-theme-minimal-blog-core-config`,
+    id: `./gatsby-theme-minimal-blog-core-config`,
     parent: null,
     children: [],
     internal: {

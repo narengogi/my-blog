@@ -12,11 +12,12 @@ module.exports = {
 		siteLanguage: `en`,
 		siteImage: `/favicon-32x32.jpg`,
 		author: `Narendra Nath Gogineni`,
-		title: `Naren's Space`
+		title: `Naren's Space`,
+		description: 'Welcome to my space on the internet!'
 	},
 	plugins: [
 		{
-			resolve: `@lekoarts/gatsby-theme-minimal-blog`,
+			resolve: require.resolve(`./plugins/@lekoarts/gatsby-theme-minimal-blog`),
 			// See the theme's README for all available options
 			options: {
 				navigation: [
@@ -72,12 +73,7 @@ module.exports = {
 				]
 			}
 		},
-		{
-			resolve: `gatsby-plugin-feed`,
-			options: {
-				title: `Naren's Space`
-			}
-		},
+		`gatsby-plugin-feed`,
 		`gatsby-plugin-offline`,
 		`gatsby-plugin-netlify`
 	]
