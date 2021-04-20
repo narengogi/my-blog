@@ -1,88 +1,78 @@
 {
-  "_args": [
-    [
-      "@lekoarts/gatsby-theme-minimal-blog@2.3.12",
-      "/home/naren/Documents/projects/Narens_Website/gatsby-site"
-    ]
-  ],
-  "_from": "@lekoarts/gatsby-theme-minimal-blog@2.3.12",
-  "_id": "@lekoarts/gatsby-theme-minimal-blog@2.3.12",
-  "_inBundle": false,
-  "_integrity": "sha512-reDmLTmGHqqAHA1qOb9TZorsxTFGsmb6vbE/I66ckvd9VduL/OGH1D/eKxT8r8BrZb4ZB6zlY6BL82xgelQdiA==",
-  "_location": "/@lekoarts/gatsby-theme-minimal-blog",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "@lekoarts/gatsby-theme-minimal-blog@2.3.12",
-    "name": "@lekoarts/gatsby-theme-minimal-blog",
-    "escapedName": "@lekoarts%2fgatsby-theme-minimal-blog",
-    "scope": "@lekoarts",
-    "rawSpec": "2.3.12",
-    "saveSpec": null,
-    "fetchSpec": "2.3.12"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@lekoarts/gatsby-theme-minimal-blog/-/gatsby-theme-minimal-blog-2.3.12.tgz",
-  "_spec": "2.3.12",
-  "_where": "/home/naren/Documents/projects/Narens_Website/gatsby-site",
-  "author": {
-    "name": "LekoArts",
-    "email": "hello@lekoarts.de"
-  },
-  "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-themes/issues"
-  },
-  "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog-core": "^2.3.9",
-    "@theme-ui/color": "^0.3.1",
-    "@theme-ui/components": "^0.3.1",
-    "@theme-ui/presets": "^0.3.0",
-    "gatsby-plugin-catch-links": "^2.3.10",
-    "gatsby-plugin-feed": "^2.5.10",
-    "gatsby-plugin-react-helmet": "^3.3.9",
-    "gatsby-plugin-theme-ui": "^0.3.0",
-    "gatsby-plugin-typescript": "^2.4.12",
-    "lodash.kebabcase": "^4.1.1",
-    "mdx-utils": "^0.2.0",
-    "prism-react-renderer": "^1.1.1",
-    "react-helmet": "^6.1.0",
-    "react-live": "^2.2.2",
-    "theme-ui": "^0.3.1",
-    "typeface-ibm-plex-sans": "^0.0.75"
-  },
-  "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
-  "gitHead": "2ff00a33acdc73158ef6cb4503ac70233abf699e",
-  "homepage": "https://themes.lekoarts.de",
-  "keywords": [
-    "gatsby",
-    "gatsby-theme",
-    "gatsby-plugin",
-    "lekoarts"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "@lekoarts/gatsby-theme-minimal-blog",
-  "peerDependencies": {
-    "gatsby": "^2.13.3",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LekoArts/gatsby-themes.git",
-    "directory": "themes/gatsby-theme-minimal-blog"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "start": "gatsby develop"
-  },
-  "version": "2.3.12"
+	"_args": [
+		[ "@lekoarts/gatsby-theme-minimal-blog@2.3.12", "/home/naren/Documents/projects/Narens_Website/gatsby-site" ]
+	],
+	"_from": "@lekoarts/gatsby-theme-minimal-blog@2.3.12",
+	"_id": "@lekoarts/gatsby-theme-minimal-blog@2.3.12",
+	"_inBundle": false,
+	"_integrity": "sha512-reDmLTmGHqqAHA1qOb9TZorsxTFGsmb6vbE/I66ckvd9VduL/OGH1D/eKxT8r8BrZb4ZB6zlY6BL82xgelQdiA==",
+	"_location": "/@lekoarts/gatsby-theme-minimal-blog",
+	"_phantomChildren": {},
+	"_requested": {
+		"type": "version",
+		"registry": true,
+		"raw": "@lekoarts/gatsby-theme-minimal-blog@2.3.12",
+		"name": "@lekoarts/gatsby-theme-minimal-blog",
+		"escapedName": "@lekoarts%2fgatsby-theme-minimal-blog",
+		"scope": "@lekoarts",
+		"rawSpec": "2.3.12",
+		"saveSpec": null,
+		"fetchSpec": "2.3.12"
+	},
+	"_requiredBy": [ "/" ],
+	"_resolved": "https://registry.npmjs.org/@lekoarts/gatsby-theme-minimal-blog/-/gatsby-theme-minimal-blog-2.3.12.tgz",
+	"_spec": "2.3.12",
+	"_where": "/home/naren/Documents/projects/Narens_Website/gatsby-site",
+	"author": {
+		"name": "LekoArts",
+		"email": "hello@lekoarts.de"
+	},
+	"bugs": {
+		"url": "https://github.com/LekoArts/gatsby-themes/issues"
+	},
+	"dependencies": {
+		"@lekoarts/gatsby-theme-minimal-blog-core": "^2.3.9",
+		"@theme-ui/color": "^0.3.1",
+		"@theme-ui/components": "^0.3.1",
+		"@theme-ui/presets": "^0.3.0",
+		"gatsby-plugin-catch-links": "^2.3.10",
+		"gatsby-plugin-feed": "^2.5.10",
+		"gatsby-plugin-react-helmet": "^3.3.9",
+		"gatsby-plugin-theme-ui": "^0.3.0",
+		"gatsby-plugin-typescript": "^2.4.12",
+		"lodash.kebabcase": "^4.1.1",
+		"mdx-utils": "^0.2.0",
+		"prism-react-renderer": "^1.1.1",
+		"react-helmet": "^6.1.0",
+		"react-live": "^2.2.2",
+		"theme-ui": "^0.3.1",
+		"typeface-ibm-plex-sans": "^0.0.75"
+	},
+	"description": "Hello",
+	"gitHead": "2ff00a33acdc73158ef6cb4503ac70233abf699e",
+	"homepage": "https://themes.lekoarts.de",
+	"keywords": [ "gatsby", "gatsby-theme", "gatsby-plugin", "lekoarts" ],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "@lekoarts/gatsby-theme-minimal-blog",
+	"peerDependencies": {
+		"gatsby": "^2.13.3",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LekoArts/gatsby-themes.git",
+		"directory": "themes/gatsby-theme-minimal-blog"
+	},
+	"scripts": {
+		"build": "gatsby build",
+		"clean": "gatsby clean",
+		"develop": "gatsby develop",
+		"start": "gatsby develop"
+	},
+	"version": "2.3.12"
 }
