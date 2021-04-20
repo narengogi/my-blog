@@ -71,6 +71,12 @@ module.exports = {
 				]
 			}
 		},
+		{
+			resolve: `gatsby-plugin-feed`,
+			options: {
+				title: `Naren's Space`
+			}
+		},
 		`gatsby-plugin-offline`,
 		`gatsby-plugin-netlify`
 	]
