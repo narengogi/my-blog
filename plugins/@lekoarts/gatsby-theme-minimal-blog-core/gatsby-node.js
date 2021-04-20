@@ -144,7 +144,7 @@ exports.sourceNodes = ({ actions, createContentDigest }, themeOptions) => {
 
   createNode({
     ...minimalBlogConfig,
-    id: `@lekoarts/gatsby-theme-minimal-blog-core-config`,
+    id: `./gatsby-theme-minimal-blog-core-config`,
     parent: null,
     children: [],
     internal: {
@@ -243,7 +243,6 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
 // These template are only data-fetching wrappers that import components
 const homepageTemplate = require.resolve(`./src/templates/homepage-query.tsx`)
 const blogTemplate = require.resolve(`./src/templates/blog-query.tsx`)
-const unindexedTemplate = require.resolve(`./src/templates/unindexed-query.tsx`)
 const postTemplate = require.resolve(`./src/templates/post-query.tsx`)
 const pageTemplate = require.resolve(`./src/templates/page-query.tsx`)
 const tagTemplate = require.resolve(`./src/templates/tag-query.tsx`)

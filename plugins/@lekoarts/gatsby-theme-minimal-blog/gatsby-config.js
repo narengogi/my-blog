@@ -16,7 +16,7 @@ module.exports = (options) => {
 		},
 		plugins: [
 			{
-				resolve: `@lekoarts/gatsby-theme-minimal-blog-core`,
+				resolve: `../gatsby-theme-minimal-blog-core`,
 				options
 			},
 			feed && {
