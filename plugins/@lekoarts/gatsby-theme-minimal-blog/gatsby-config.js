@@ -21,7 +21,7 @@ module.exports = (options) => {
 			},
 			feed && {
 				resolve: `gatsby-plugin-feed`,
-				options: newsletterFeed(feedTitle)
+				options: newsletterFeed('Narens Blog')
 			},
 			`gatsby-plugin-react-helmet`,
 			`gatsby-plugin-typescript`,
