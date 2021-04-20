@@ -17,7 +17,7 @@ module.exports = {
 	},
 	plugins: [
 		{
-			resolve: require.resolve(`./plugins/@lekoarts/gatsby-theme-minimal-blog`),
+			resolve: `@lekoarts/gatsby-theme-minimal-blog`,
 			// See the theme's README for all available options
 			options: {
 				navigation: [
@@ -73,7 +73,9 @@ module.exports = {
 				]
 			}
 		},
-		`gatsby-plugin-feed`,
+		{
+			resolve: `gatsby-plugin-feed`
+		},
 		`gatsby-plugin-offline`,
 		`gatsby-plugin-netlify`
 	]
