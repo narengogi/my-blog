@@ -1,1 +1,1 @@
-# Gstsby Source files for my blog
+# Gatsby Source files for my blog
